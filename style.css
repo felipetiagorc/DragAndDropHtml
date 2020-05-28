@@ -1,0 +1,44 @@
+html {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
+}
+
+body {
+  background-color: #141316;
+}
+
+.boards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.board {
+  background-color: #141316;
+  border: 2px solid #fd951f11;
+  border-radius: 2px;
+  margin: 0 16px;
+}
+
+.board h3 {
+  padding: 16px;
+  margin: 0;
+  color: #fd951fcc;
+}
+
+.dropzone {
+  padding: 16px;
+  background: gray;
+  min-height: 200px;
+  min-width: 200px;
+}
+
+.card {
+  padding: 16px;
+  box-shadow: 3px 2px 5px 1px #fd951fcc;
+  width: 170px;
+  margin: 0 20px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 18px;
+}
